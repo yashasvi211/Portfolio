@@ -24,7 +24,7 @@ nav ul li{
 }
 .left{
     font-family: ui-sans-serif;
-    font-size: 1.688rem;
+    font-size: 2.15rem;
 }
 .right{
     font-size: 1.1rem;
@@ -43,7 +43,8 @@ nav ul li{
     width: 40%;
 }
 .leftsec{
-    font-size: 3.5rem;
+    font-family: monospace;     
+    font-size: 2.97rem;
     margin: 35px 0;
 }
 .rightsec img{
@@ -52,4 +53,17 @@ nav ul li{
 }
 .namecol{
      color:#b3b369;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+       text-decoration: none;
+       color: rgb(233, 220, 220);
+}
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 1.11rem;
+    color: rgb(221, 193, 193);
 }
