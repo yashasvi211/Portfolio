@@ -8,13 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="left">Portfolio</div>
+            <div class="left">YASHASVI PARASHAR</div>
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -30,19 +33,36 @@
 
     <main>
         <section class="firstsec">
-            <div class="leftsec"><span class="namecol">Yashasvi,</span>
-                 
-                 the maestro of programming,
-                Crafting code with finesse and precision,
-                
+            <div class="leftsec">
+                <p>
+                    <span class="namecol">Hi there.</span> I am excited about the prospect of joining your esteemed company and
+                    contributing to its growth and success.
+                </p>
 
-
-                <div>A virtuoso of elegant solutions,
-                    Bringing innovation and success with vision. </div>
+                <p>I am well-versed in various technologies, including:</p>
+                <span id="element"></span>
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: [
+                            '<span>Database Devolopment.</span>',
+                            '<span>Web Designing.</span>',
+                            '<span>Web Devolopment.</span>',
+                            
+                            '<span>Android Devolopment.</span>',
+                            '<span>Video Editing.</span>',
+                          
+                        ],
+                        typeSpeed: 50,
+                        loop: true,
+                        showCursor: false // To hide the typing cursor
+                    });
+                </script>
             </div>
             <div class="rightsec"><img src="dev.png" alt=""></div>
         </section>
     </main>
+
 </body>
 
 </html>
