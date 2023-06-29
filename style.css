@@ -32,8 +32,21 @@ nav ul li{
 .first{
      display: flex;
      justify-content: space-around;
-     margin: 23px 0;
+     margin: 80px 0;
+}
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+    margin: 82px 0;
+}
+.firstsec>div{
+    width: 40%;
 }
 .leftsec{
-    background-color: red;
+    font-size: 3rem;
+    margin: 35px 0;
+}
+.rightsec img{
+    width: 90.5%;    
+    padding: 0px 0px;
 }
